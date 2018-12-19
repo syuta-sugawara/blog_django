@@ -1,33 +1,52 @@
 body {
     font-family: 'Source Sans Pro',sans-serif;
     font-size: 18px;
-}
-header{
-    border-bottom: 1px solid #999;
-    margin-bottom: 2rem;
-    display: flex;
+    margin:0;
 }
 
-header h1 a {
-    color: red;
+
+header{
+   
+    margin-bottom: 2rem;
+    padding: 20px 0;
+    display: flex;
+    text-align: left;
+    background-color:blueviolet ;
+    position: relative;
+    
+}
+
+header h1 a{
+    color: white;
     text-decoration: none;
+    
 }
 
 .nav-left{
-    margin-left: auto;
+    margin-left: 20px;
+   
 }
 
 .nav-right{
     display: flex;
     padding-top: 2rem;
+    margin-left: 20px; 
+    position: absolute;
+    right: 30px;
+    
+}
+.nav-right a {
+    color: white;
 }
 
+
 .post-entry{
-    margin-bottom: 2rem;
+    margin-bottom: 50px;
+    border-bottom: 1px solid #999;
 }
 
 .post-entry h2{
-    margin:0.5rem 0;
+    margin:0.5rem 20px;
 }
 
 .post-entry h2 a,
@@ -38,7 +57,7 @@ header h1 a {
 }
 
 .post-entry p{
-    margin: 0;
+    margin: 30px;
     font-weight: 400;
 }
 
