@@ -6,14 +6,21 @@ body {
 
 
 header{
-   
-    margin-bottom: 2rem;
-    padding: 20px 0;
-    display: flex;
-    text-align: left;
-    background-color:blueviolet ;
-    position: relative;
+   witdh:100%; 
+   height:500px; 
+   opacity: 0.8;
+   background-image: url("/static/blog/top.png");
+   position: relative;
     
+
+}
+header h1 {
+    position: absolute;
+    color: white;
+    font-size: 80px;
+    top:200px;
+    left: 50px;
+   
 }
 
 header h1 a{
@@ -46,7 +53,8 @@ header h1 a{
 }
 
 .post-entry h2{
-    margin:0.5rem 20px;
+    margin:50px 30px;
+    padding: 10px 0px;
 }
 
 .post-entry h2 a,
@@ -63,4 +71,8 @@ header h1 a{
 
 .post-entry h2 a:hover{
     color: :red;
+}
+
+div .container{
+    margin: 100px;
 }
