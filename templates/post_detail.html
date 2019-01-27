@@ -9,6 +9,6 @@
             {{post.body}}
         </p>
     </div>
-    <p style="margin: 30px;"><a href="{% url 'post_edit' post.pk %}">+ Edit Blog Post</a><p>
-    <p style="margin: 30px;"><a href="{% url 'post_delete' post.pk %}">+ Delete Blog Post</a><p>
+    <p style="margin: 30px;"><a href="{% url 'post_edit' post.pk %}">+ Edit Post</a><p>
+    <p style="margin: 30px;"><a href="{% url 'post_delete' post.pk %}">+ Delete Post</a><p>
 {% endblock content %}
